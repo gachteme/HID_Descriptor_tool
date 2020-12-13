@@ -1,0 +1,59 @@
+
+USAGE_PAGE (Generic Desktop),
+USAGE (Game pad),
+COLLECTION (Application),
+    COLLECTION (Physical),
+        REPORT_ID (1)
+        USAGE_PAGE (Button),
+        USAGE_MINIMUM (Button 1),
+        USAGE_MAXIMUM (Button 16),
+        LOGICAL_MINIMUM (0),
+        LOGICAL_MAXIMUM (1),
+        REPORT_COUNT (16),
+        REPORT_SIZE (1),
+        INPUT (Data,Var,Abs),
+        USAGE_PAGE (Generic Desktop)
+        USAGE (X)
+        USAGE (Y)
+        USAGE (Z)
+        USAGE (Rx)
+        LOGICAL_MINIMUM (-127)
+        LOGICAL_MAXIMUM (127)
+        REPORT_SIZE (8)
+        REPORT_COUNT (4)
+        INPUT (Data,Var,Abs)
+    END_COLLECTION(),
+END_COLLECTION(),
+USAGE_PAGE (Generic Desktop),
+USAGE (Keyboard),
+COLLECTION (Application),
+    REPORT_ID (2),
+    USAGE_PAGE (Keypad) ,
+    USAGE_MINIMUM (Keyboard LeftControl) ,
+    USAGE_MAXIMUM (Keyboard Right GUI) ,
+    LOGICAL_MINIMUM (0) ,
+    LOGICAL_MAXIMUM (1) ,
+    REPORT_SIZE (1) ,
+    REPORT_COUNT (8) ,
+    INPUT (Data,Var,Abs) ,
+    REPORT_SIZE (8) ,
+    REPORT_COUNT (1) ,
+    INPUT (Cnst,Var,Abs) ,
+    REPORT_SIZE (1) ,
+    REPORT_COUNT (5) ,
+    USAGE_PAGE (LEDs) ,
+    USAGE_MINIMUM (Num Lock) ,
+    USAGE_MAXIMUM (Kana) ,
+    OUTPUT (Data,Var,Abs) ,
+    REPORT_SIZE (3) ,
+    REPORT_COUNT (1) ,
+    OUTPUT (Cnst,Var,Abs) ,
+    REPORT_SIZE (8) ,
+    REPORT_COUNT (6) ,
+    LOGICAL_MINIMUM (0) ,
+    LOGICAL_MAXIMUM (101) ,
+    USAGE_PAGE (Keypad) ,
+    USAGE_MINIMUM (Reserved) ,
+    USAGE_MAXIMUM (Keyboard Application) ,
+    INPUT (Data,Ary,Abs) ,
+END_COLLECTION(),

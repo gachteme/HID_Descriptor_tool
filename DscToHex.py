@@ -67,7 +67,7 @@ def MatchDefine(defSets,findFunc):
 		if result:
 			return defDict
 	return None
-fileIn="DscInput.rptDsc"
+fileIn="myDscInput.rptDsc"
 fileOut=open("Hex.out",'w')
 lines=open(fileIn).readlines()
 bytecount=0
